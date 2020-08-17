@@ -1,0 +1,49 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Headlines</title>
+    <link rel="stylesheet" href="style.css"  type="text/css">
+    </head>
+    <body>
+  <header>
+     <li id="h1"><strong>NewsNepal</strong></li>
+     <li><img class="nepal" src="nepal.png" alt="Nepal image"></li>
+   </header>
+
+  <div class="container">
+    <img class="mountain1" src="mountains.jpg">
+    <div class="overlay overlayleft">
+      <div class="text">
+        <img class="just" src="nepalflag.gif" alt="">
+        <p>CHOOSE YOUR NEWS:</p><br>
+        <div class="absolute">
+        <li class="rest1"><button onclick="getnews()"><strong>Business</strong></button>
+        <li class="res2"><button onclick="getnews1()"><strong>Technology</strong></button>
+        <li class="rest3"><button onclick="getnews2()"><strong>Sports</strong></button><br>
+          <li class="rest1"><button onclick="getnews3()"><strong>Science</strong></button>
+          <li class="res2"><button onclick="getnews4()"><strong>Celebrities</strong></button>
+          <li class="rest3"><button onclick="getnews5()"><strong>Health</strong></button>
+        </div>
+      </div>
+      <a id="left" href="https://www.worldometers.info/coronavirus/">
+    <figure>
+      <img class="globe"src="globe.gif">
+      <figcaption>COVID-19 <br>World Statistics</figcaption>
+    </figure>
+      </a>
+      <a  href="https://cov19nepal.netlify.app/">
+        <img class="map"src="nepalflag.gif">
+  <span>COVID-19<br> Nepal Statistics</span>
+      </a>
+    </div>
+    <div id="scroll"><strong><a href="#output">SCROLL DOWN</a><strong></div>
+  </div>
+  <div id="output"></div>
+  <div class="delete"></div>
+    </body>
+    </html>

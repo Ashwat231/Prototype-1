@@ -1,0 +1,142 @@
+*{
+  margin:0px;
+  padding: auto;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  background-color: black;
+  width: 100%;
+}
+#h1{
+  font-size: 2vw;
+  font-family: sans-serif;
+  display: flex;
+  color: white;
+}
+header{
+  height: 100%;
+  background-color: #DBC0C0;
+    width: 100%;
+  display: flex;
+  border-bottom: black solid 2px;
+}
+.nepal{
+  display: flex;
+height: auto;
+  width: 4%;
+justify-content: center;
+align-items: center;
+margin-left: 40%;
+}
+.mountain1{
+  height: auto;
+  width: 100%;
+    display: block;
+}
+.container{
+  position: relative;
+}
+.overlay{
+  position: absolute;
+  transition: all 2s ease;
+  opacity: 0  ;
+  background-color: #EDFF37;
+}
+.container:hover .overlayleft{
+  opacity: 0.7;
+}
+.text{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+.overlayleft{
+height:100%;
+width:100%;
+top:0px;
+left:0px;
+}
+.container:hover .overlayleft{
+width:100%;
+}
+.text li {
+  display: inline;
+  font-size: 2.5vw;
+  font-weight: lighter;
+        font-family: source sans pro;
+
+    text-decoration: none;
+    color: red;
+}
+a:hover{
+  color: darkred;
+  text-decoration: underline;
+}
+p{
+  text-align: center;
+  color: black;
+  font-size:4vw;
+}
+.just{
+  position: relative;
+  height: auto;
+  width: 15%;
+  margin-left: 43%;
+}
+
+#left{
+  float: left;
+  font-size: 1vw;
+}
+.globe{
+  height: auto;
+  width: 15%;
+}
+
+.map{
+  float: right;
+  height:auto;
+  width: 4%;
+  margin-bottom: 0;;
+}
+span{
+  float: right;
+    font-size: 1vw;
+  }
+  .delete{
+    height: auto;
+    padding-top:120px;
+    padding-bottom:50px;
+    font-size:12px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-left:white solid 5px;
+    border-right: white solid 5px;
+    background-color:#DBC0C0;
+  }
+
+  button{
+padding:10px;
+width: 32%;
+font-size: 1vw;
+color:red;
+  }
+  .absolute{
+    padding: 20px;
+    margin: 0px;
+  }
+  #lol{
+    color: white;
+  }
+  #scroll{
+    position: absolute;
+    color: black;
+    bottom: 10%;
+    left:43%;
+    display: none;
+    font-size: 2vw;
+  }
